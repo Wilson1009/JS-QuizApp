@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="header">
+            <h1 class="header">Quizzing</h1>
+    </section>
+    <main>
+        <div class="whitespace"></div>
+        <div id="container3">
+            <h2>Quiz Results</h2>
+            <div id="scoreDisplay"></div> 
+            <div id="timeDisplay"></div>
+            <a href="homePage.html"><button id="home">Back Home</button></a>
+        </div>
+    </main>
+    <script>
+        // event listener that waits until the code score and timer are sent to this page
+        document.addEventListener('DOMContentLoaded', function () {
+            const params = new URLSearchParams(window.location.search);
+            const score = params.get('score');
+            const time = params.get('time');
+            const scoreDisplay = document.getElementById('scoreDisplay');
+            const timeDisplay = document.getElementById('timeDisplay'); 
+            // makes sure that there is a score and displays the given score
+            if (score !== null) {
+                scoreDisplay.textContent = `You scored ${score} out of 10`;
+            } else {
+                scoreDisplay.textContent = 'No results to display.';
+            }
+            // makes sure that there is a time and displays the given time
+            if (time !== null) {
+                timeDisplay.textContent = `Time spent: ${time}`;
+            } else {
+                timeDisplay.textContent = 'No time data available.';
+            }
+        });
+    </script>
+</body>
+
+</html>
