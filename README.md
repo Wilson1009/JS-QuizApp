@@ -1,7 +1,7 @@
 Ibnul - Contributed with the html and css, and javascript ideas and concepts.
  - Worked on the html and css on how the pages would look like and what styles should go where
 
-Sarah - Contributed with the html and css, and javascript ideas and concepts.
+Sabanta - Contributed with the html and css, and javascript ideas and concepts.
  - Worked on the html and css on how the pages would look like and what styles should go where and the title of the project.
    - How the quiz page should look, i.e similar to flashcards and the look of Quizlet
  - Contributed ideas to ideas for the javascript and what features should be added 
