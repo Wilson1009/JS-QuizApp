@@ -1,4 +1,4 @@
-Shabab (Ibnul) - Contributed with the html and css, and javascript ideas and concepts.
+Ibnul - Contributed with the html and css, and javascript ideas and concepts.
  - Worked on the html and css on how the pages would look like and what styles should go where
 
 Sarah - Contributed with the html and css, and javascript ideas and concepts.
